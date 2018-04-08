@@ -39,7 +39,7 @@ a {
 
 .header {
   position: relative;
-  background-image: url(./Images/ceramics3.jpg);
+  background-image: url(./Images/ceramics2.jpg);
   width: 100%;
   height: 800px;
   background-size: cover;
@@ -68,17 +68,19 @@ img.resize {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   width: 100%;
   flex-wrap: wrap;
+  top: 80%;
 }
 
 .image-button1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./Images/jag.jpg");
+  background-image: url("./Images/bild.jpg");
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.6;
   filter: alpha(opacity=50);
   width: 200px;
   height: 200px;
@@ -99,7 +101,7 @@ img.resize {
   justify-content: center;
   background-image: url("./Images/mug1.jpg");
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.6;
   filter: alpha(opacity=50);
   width: 200px;
   height: 200px;
@@ -120,7 +122,7 @@ img.resize {
   justify-content: center;
   background-image: url("./Images/wood.jpg");
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.6;
   filter: alpha(opacity=50);
   width: 200px;
   height: 200px;
