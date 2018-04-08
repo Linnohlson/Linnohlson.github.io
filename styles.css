@@ -41,13 +41,13 @@ a {
   position: relative;
   background-image: url(./Images/ceramics3.jpg);
   width: 100%;
-  height: 650px;
+  height: 800px;
   background-size: cover;
 }
 
-.center {
+.index-center {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -55,7 +55,8 @@ a {
 
 img.resize {
   width: 300px;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
 }
 
 .resize {
@@ -72,21 +73,12 @@ body.background {
   height: 1050px;
 }
 
-.container {
+.index-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
-
-}
-
-.inner-container {
-  background-color: white;
-  padding: 20px;
-  margin: 25px;
-  font-size: 20px;
-  text-align: center;
 }
 
 .image-button1 {
@@ -150,6 +142,22 @@ body.background {
 .image-button3:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
+}
+
+.ceramics-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.ceramics-inner-container {
+  background-color: white;
+  padding: 20px;
+  margin: 25px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .about-center {
